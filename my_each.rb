@@ -4,4 +4,5 @@ def my_each(array) #this should build out the yielf in this method
     while i < array.lenth
       yield array[i]
       i += 1
+    end
 end
